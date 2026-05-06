@@ -215,6 +215,19 @@ a {
   margin-top: 28px;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 24px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.footer a {
+  color: var(--primary);
+}
+
 .notes article {
   padding: 22px;
 }
@@ -268,7 +281,12 @@ a {
   }
 
   .signals,
-  .notes {
+  .notes,
+  .footer {
     grid-template-columns: 1fr;
+  }
+
+  .footer {
+    display: grid;
   }
 }

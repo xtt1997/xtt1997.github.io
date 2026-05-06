@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">xtt open source tooling portfolio</title>
+  <desc id="desc">Six open source tools for Agent Skills, MCP workflows, prompt evaluation, repository summaries, Feishu setup, and CSV inspection.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2ebf9" />
+    </linearGradient>
+    <radialGradient id="spotA" cx="0%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.20" />
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="spotB" cx="100%" cy="100%" r="65%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#spotA)" />
+  <rect width="1200" height="630" fill="url(#spotB)" />
+
+  <g font-family="'IBM Plex Sans', Arial, sans-serif" fill="#1e293b">
+    <text x="84" y="98" font-size="24" font-weight="700" letter-spacing="3" fill="#2563eb">OPEN SOURCE TOOLING PORTFOLIO</text>
+    <text x="84" y="190" font-size="72" font-weight="700">xtt builds compact tools for</text>
+    <text x="84" y="274" font-size="72" font-weight="700">Agent Skills, MCP, prompt diffs,</text>
+    <text x="84" y="358" font-size="72" font-weight="700">repo docs, Feishu, and CSVs.</text>
+    <text x="84" y="430" font-size="28" font-weight="400" fill="#64748b">6 public repositories. 48-hour ranking loop. Top-2 iteration rule.</text>
+  </g>
+
+  <g transform="translate(760 112)">
+    <rect width="360" height="388" rx="28" fill="white" opacity="0.92" />
+    <g font-family="'JetBrains Mono', monospace" font-size="22" font-weight="600" fill="#2563eb">
+      <text x="28" y="52">skillgrade</text>
+      <text x="28" y="102">mcpdock</text>
+      <text x="28" y="152">promptdiff</text>
+      <text x="28" y="202">repocanon</text>
+      <text x="28" y="252">feishu-mcp-starter</text>
+      <text x="28" y="302">csvlens-web</text>
+    </g>
+    <g font-family="'IBM Plex Sans', Arial, sans-serif" font-size="18" fill="#64748b">
+      <text x="28" y="74">Lint, scan, and CI summaries for skills</text>
+      <text x="28" y="124">Manage MCP configs once, export everywhere</text>
+      <text x="28" y="174">Diff prompt and eval snapshots</text>
+      <text x="28" y="224">Turn repos into Markdown summaries</text>
+      <text x="28" y="274">Scaffold Feishu MCP-style setup</text>
+      <text x="28" y="324">Inspect CSVs in the browser</text>
+    </g>
+  </g>
+</svg>
